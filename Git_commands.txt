@@ -1,0 +1,62 @@
+This file is created with 'touch' command. 
+
+
+
+Note: We should create file/folders in 'working derectory' then connect it with 'stage' and then connect with local derectory.
+
+- To see the location of cmd file = pwd
+- To initialize the git file = git init
+- To uninitialize the git file = rm -rf .git
+- To check the directory data = ls
+- To check the directory hidden data = ls -a
+- To create a folder = mkdir
+- To create a file = touch
+- To clear the the page data = ctrl+l
+- To change the derectory = cd (foldername)
+- To go back the derectory folder = cd ..
+- To check the git file status = git status
+- To check the git username/email = git config / git config --list
+- To check the git username = git config user.name "username"
+- To check the git email = git config user.name "email"
+- To trake/stage git from derctory = git add (filename+extension)
+- To trak/stage all git file from derectory = git add .
+- To unstage git file = git rm --cached (filename)
+- To discard the git changes = git restore (filename)
+- To see the modifications = git diff
+
+- To take frome stage to local derectory = git commit -m "any massage"
+- To take from working derctory to stage and commit together = git add . && git commit -m "any value"
+- To check the commit history = git log
+- To uncommit only = git reset --soft HEAD^
+- To uncommit and unstage together = git reset HEAD^
+- To delete the hole file = git reset --hard HEAD^
+= git reset using is'nt the best way. We can use "git checkout" insted of "git reset"
+- To check commit history in oneline = git log --oneline
+- To undo or redu = git checkout (commit id)
+- To ignore any file or folder from git staging = create .ignore file and move them
+
+
+- To connect from local repo to remote repo = git remote add origin (github repo link)
+- To remove any folder and desconnect from github = rm -rf Life-story 
+- To clone directly from github without local repo = git clone (github repo link)
+
+- To push the changes from the local to remote = git push -u origin (branch name)
+- To pull changes from the remote to local repo = git pull
+- To make a new branch = git branch (Branch name)
+- To check the all branchs = git branch
+- To move from one branch to another one = git chechout (Brach name)
+- To delete branch = git branch -d (Branch name)
+- To make a new brach and swithc instead = git checkout -b "Branch name"
+- To merge the branchs, Switch to main branch then = git merge (Branch name)
+- Then pull and push into the remote repo = git pull = git push -u origin main
+
+- To open the current folder = start .
+- To rename the master branch = git branch -m "main" (best way to rename from github then pull into the local)
+
+
+
+- To stage and commit togather = git commit -am "massage"
+
+
+
+
